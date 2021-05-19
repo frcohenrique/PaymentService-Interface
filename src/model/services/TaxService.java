@@ -2,6 +2,6 @@ package model.services;
 
 public interface TaxService {
 
-	double tax(double amount);
-	
+	double paymentFee(double amount);
+	double interest(double amount, int months);
 }
